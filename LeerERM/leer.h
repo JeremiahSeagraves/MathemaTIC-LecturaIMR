@@ -16,8 +16,8 @@
 #include "../LeerERM/Constantes.cpp"
 using namespace std;
 
-vector<Constantes> leer(){
-	ifstream file("/home/jeremiah/workspace/MathemaTIC/LeerERM/archivo_a_leer.txt");
+vector<Constantes> leer(char * ruta){
+	ifstream file(ruta);
 	int i;
 	vector<Constantes> vectorbigi;
 	if (file.is_open()) {

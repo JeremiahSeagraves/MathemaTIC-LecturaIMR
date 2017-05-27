@@ -8,7 +8,8 @@ using namespace std;
 int main()
 {
 	int i;
-	vector<Constantes> vectorbigi = leer();
+	char *ruta = "/home/jeremiah/workspace/MathemaTIC/LeerERM/archivo_a_leer.txt";
+	vector<Constantes> vectorbigi = leer(ruta);
 
 		for ( i=0; i<vectorbigi.size(); ++i)
 		{
